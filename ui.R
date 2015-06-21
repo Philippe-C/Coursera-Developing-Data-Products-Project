@@ -18,7 +18,7 @@ shinyUI(pageWithSidebar(
                 p("Data:"),
                 p('Our dataset covering the period 1932-2012 is based on the results published by the Federal Election Commitee (Ref.3 below), the associated CSV file contains a 1047x5 matrix and the last column indicates whether or not the mentioned states is a South State. We decided to show the graph of Democrats Votes, but this choice is purely arbitrary and naturally Republicans Votes, if displayed (which is easyYruru), would be complementary. All data were processed on Rstudio Version 0.98.1091 and MAC OS Mavericks 10.9.5.'),
                 
-                h6("Reference (1):", a("Geman, et al. (2007),", tags$i("Rich State, Poor State, Red State, Blue State: What’s the Matter with Connecticut?,"), "Quarterly Journal of Political Science, 2007, 2: 345–367", href="http://www.stat.columbia.edu/~gelman/research/published/rb_qjps.pdf"))                ,
+                h6("Reference (1):", a("Gelman, et al. (2007),", tags$i("Rich State, Poor State, Red State, Blue State: What’s the Matter with Connecticut?,"), "Quarterly Journal of Political Science, 2007, 2: 345–367", href="http://www.stat.columbia.edu/~gelman/research/published/rb_qjps.pdf"))                ,
                 h6("Reference (2):", a("Prof. M. Lewis (Stanford),", tags$i("Geography of US Election,"), "openAcademy", href="http://theopenacademy.com/content/geography-united-states-elections")),
                 h6("Reference (3):", a("Prof. J.T. Wooley and G. Peters (University of California),", tags$i("Data Section,"), "The American Presidency Project", href="http://www.presidency.ucsb.edu/showelection.php?year=2012"))
                 ),
@@ -32,7 +32,6 @@ shinyUI(pageWithSidebar(
                 )
 )
 )
-
 
 
 
