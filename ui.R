@@ -16,7 +16,7 @@ shinyUI(pageWithSidebar(
                 p("Just a Reminder:"),
                 p("Roosevelt (Dem.) (1933-1945), Truman (Dem.) (1945-1953), Eisenhower (Rep.) (1953-1961), Kennedy (Dem.) (1961-1963), Johnson (Dem.) (1963-1969), Nixon(Rep.) (1969-1974), Ford (Rep.) (1974-1977), Carter (Dem.) (1977-1981), Reagan (Rep.) (1981-1989), Bush (Rep.) (1989-1993), Clinton (Dem.) (1993-2001), Bush Jr (Rep.) (2001-2009), Obama (Dem.) (2009-)"),
                 p("Data:"),
-                p('Our dataset covering the period 1932-2012 is based on the results published by the Federal Election Commitee (Ref.3 below), the associated CSV file contains a 1047x5 matrix and the last column indicates whether or not the mentioned states is a South State. We decided to show the graph of Democrats Votes, but this choice is purely arbitrary and naturally Republicans Votes, if displayed (which is easyYruru), would be complementary. All data were processed on Rstudio Version 0.98.1091 and MAC OS Mavericks 10.9.5.'),
+                p('Our dataset covering the period 1932-2012 is based on the results published by the Federal Election Commitee (Ref.3 below), the associated CSV file contains a 1047x5 matrix and the last column indicates whether or not the mentioned states is a South State. We decided to show the graph of Democrats Votes, but this choice is purely arbitrary and naturally Republicans Votes, if displayed (which is easy to do), would be complementary. All data were processed on Rstudio Version 0.98.1091 and MAC OS Mavericks 10.9.5.'),
                 
                 h6("Reference (1):", a("Gelman, et al. (2007),", tags$i("Rich State, Poor State, Red State, Blue State: What’s the Matter with Connecticut?,"), "Quarterly Journal of Political Science, 2007, 2: 345–367", href="http://www.stat.columbia.edu/~gelman/research/published/rb_qjps.pdf"))                ,
                 h6("Reference (2):", a("Prof. M. Lewis (Stanford),", tags$i("Geography of US Election,"), "openAcademy", href="http://theopenacademy.com/content/geography-united-states-elections")),
@@ -32,6 +32,7 @@ shinyUI(pageWithSidebar(
                 )
 )
 )
+
 
 
 
